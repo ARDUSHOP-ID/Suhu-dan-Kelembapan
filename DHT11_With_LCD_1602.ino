@@ -31,7 +31,7 @@
 #include <DHT.h>  //menyertakan library DHT kedalam program
 #include <LiquidCrystal.h> //menyertakan library LCD
 
-#define DHTPIN 6  //kita pasang sensor pada pin 6 digital
+#define DHTPIN 6  //pasang sensor pada pin 6 digital
 #define DHTTYPE DHT11 //kita menggunakan jenis sensor DHT11, ubah jika kamu gunakan sensor lain seperti DHT22 (AM2302) atau DHT21 (AM2301)
 //#define DHTTYPE DHT22   // DHT 22, AM2302, AM2321
 //#define DHTTYPE DHT21   // DHT 21, AM2301
@@ -50,7 +50,7 @@ void setup() {
 void loop() {
   float kelembapan = dht.readHumidity(); //menyimpan nilai kelembapan pada variabel kelembapan
   float suhu = dht.readTemperature(); //menyimpan nilai suhu pada variabel suhu
-  delay(200); //mengatur jeda waktu pembacaan sensor selama 200 milidetik
+  delay(500); //mengatur jeda waktu pembacaan sensor selama 500 milidetik
   Serial.print(kelembapan); //menampilkan nilai kelembapan pada Serial Monitor
   Serial.print("%"); //Simbol persen satuan kelembapan
   Serial.print(" "); //menambahkan spasi
