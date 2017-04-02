@@ -43,7 +43,13 @@ void setup() {
   dht.begin(); //program komunikasi atau setup untuk sensor DHT
   Serial.begin(9600); //program komunikasi atau setup untuk serial monitor dan kecepatan komunikasi (baudrate)
 }
-
+/*
+  Need Arduino Part :
+  https://www.tokopedia.com/ardushopid
+  or Whatsapp Only 082111545939
+  Find Me on FB :
+  https://id-id.facebook.com/people/Ardushop-Id/100015723427957
+*/
 void loop() {
   float kelembapan = dht.readHumidity(); //menyimpan nilai kelembapan pada variabel kelembapan
   float suhu = dht.readTemperature(); //menyimpan nilai suhu pada variabel suhu
