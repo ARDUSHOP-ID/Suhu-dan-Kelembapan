@@ -22,10 +22,28 @@
   https://id-id.facebook.com/people/Ardushop-Id/100015723427957
   
   Pin DHT >> Pin Arduino
-    VCC   >>    +5V
-    DATA  >>    Pin 6 Digital
-    NC    >>    Tidak dipakai
-    GND   >>    GND
+  1 VCC   >>    +5V
+  2 DATA  >>    Pin 6 Digital
+  3 NC    >>    Tidak dipakai
+  4 GND   >>    GND
+    
+  Pin LCD >> Pin Arduino
+  1  GND  >>    GND
+  2  VCC  >>    +5V
+  3  VEE  >>  Ke Pin Tengah Potensiometer
+  4  RS   >>    Pin 12 Digital
+  5  RW   >>    GND
+  6  RE   >>    Pin 11 Digital
+  7  D0   >>    Tidak dipakai
+  8  D1   >>    Tidak dipakai
+  9  D2   >>    Tidak dipakai
+  10 D3   >>    Tidak dipakai
+  11 D4   >>    Pin 10 Digital
+  12 D5   >>    Pin 9 Digital
+  13 D6   >>    Pin 8 Digital
+  14 D7   >>    Pin 7 Digital
+  15 A    >>    +5V
+  16 K    >>    GND
  *************************************************************/
  
 #include <DHT.h>  //menyertakan library DHT kedalam program
