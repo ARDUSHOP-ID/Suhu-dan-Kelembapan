@@ -47,7 +47,7 @@ void setup() {
 void loop() {
   float kelembapan = dht.readHumidity(); //menyimpan nilai kelembapan pada variabel kelembapan
   float suhu = dht.readTemperature(); //menyimpan nilai suhu pada variabel suhu
-  delay(200); //mengatur jeda waktu pembacaan sensor selama 200 milidetik
+  delay(500); //mengatur jeda waktu pembacaan sensor selama 500 milidetik
   
   Serial.print(kelembapan); //menampilkan nilai kelembapan pada Serial Monitor
   Serial.print("%"); //Simbol persen satuan kelembapan
