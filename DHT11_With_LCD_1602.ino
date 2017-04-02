@@ -26,6 +26,11 @@
   2 DATA  >>    Pin 6 Digital
   3 NC    >>    Tidak dipakai
   4 GND   >>    GND
+  
+  Pin Potensiometer >> Pin Arduino&LCD
+  1. KAKI KIRI      >>  GND
+  2. KAKI TENGAH    >>  KE PIN 3 VEE LCD
+  3. KAKI KANAN     >>  +5V
     
   Pin LCD >> Pin Arduino
   1  GND  >>    GND
